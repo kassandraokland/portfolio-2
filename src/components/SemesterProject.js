@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import identity from "./images/identity.png";
 
 export default function SemesterProject() {
     return (
@@ -8,7 +9,7 @@ export default function SemesterProject() {
                 <Card.Header>
                     <Card.Title>Semester Project 2</Card.Title>
                 </Card.Header>
-                <Card.Img variant="top" src="/100px180"  />
+                <Card.Img variant="top" src={identity} alt="Screenshot of Identity Shoe Store website." />
                 <Card.Body>
                     <Card.Text>Semester project 2 is an e-commerce website that sells footwear. It has both customer facing and admin sections.</Card.Text>
                     <Card.Text>It is built with a Strapi API, vanilla JavaScript and SASS.</Card.Text>

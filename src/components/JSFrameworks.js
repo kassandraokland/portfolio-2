@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import pokemons from "./images/pokemons.png";
 
 export default function JSFrameworks() {
     return (
@@ -8,13 +9,13 @@ export default function JSFrameworks() {
                 <Card.Header>
                     <Card.Title>JavaScript Frameworks</Card.Title>
                 </Card.Header>
-                <Card.Img variant="top" src="/100px180"  />
+                <Card.Img variant="top" src={pokemons} className="fluid" alt="Screenshot of the Pokemon Card project I did for the JavaScript Frameworks course." />
                 <Card.Body>
-                    <Card.Text>JavaScript Frameworks uses an API and React to load a list of objects on the start page. The list objects are clickable cards that take you to a detail page for each object.</Card.Text>
-                    <Card.Text>There is also a contact form, and a login form. The login leads to an admin panel that only exists of an admin heading.</Card.Text>
+                    <Card.Text>JavaScript Frameworks uses the <a href="https://dev.pokemontcg.io/">Pokemon TCG API</a> and React to load a list of pokemon cards and a list of only grass type pokemon cards.</Card.Text>
+                    <Card.Text>There is also a contact form.</Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <Card.Text>No link to this project yet as I am going to resit the assignment.</Card.Text>
+                    <Card.Text><a href="https://github.com/kassandraokland/noroff-jsfresit-kassandraokland">Github link</a></Card.Text>
                 </Card.Footer>
             </Card>
         </Container>

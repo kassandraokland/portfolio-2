@@ -1,5 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
+import shary from "./images/shary.png";
 
 export default function ProjectExam() {
     return (
@@ -8,7 +9,7 @@ export default function ProjectExam() {
                 <Card.Header>
                     <Card.Title>Project Exam 2</Card.Title>
                 </Card.Header>
-                <Card.Img variant="top" src="/100px180"  />
+                <Card.Img variant="top" src={shary} alt="Screenshot of the login-page for the social media platform."  />
                 <Card.Body>
                     <Card.Text>Project Exam 2 is a social media platform that is made of an API made by my school, React, Bootstrap and Sass.</Card.Text>
                     <Card.Text>On the website you can register with a "stud.noroff.no" email address, log in, add posts, view posts, view profiles, etc.</Card.Text>
