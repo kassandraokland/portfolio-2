@@ -5,7 +5,7 @@ import pokemons from "./images/pokemons.png";
 export default function JSFrameworks() {
     return (
         <Container>
-            <Card>
+            <Card style={{ maxWidth: '700px' }}>
                 <Card.Header>
                     <Card.Title>JavaScript Frameworks</Card.Title>
                 </Card.Header>

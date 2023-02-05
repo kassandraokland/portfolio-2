@@ -5,7 +5,7 @@ import identity from "./images/identity.png";
 export default function SemesterProject() {
     return (
         <Container>
-            <Card>
+            <Card style={{ maxWidth: '700px' }}>
                 <Card.Header>
                     <Card.Title>Semester Project 2</Card.Title>
                 </Card.Header>

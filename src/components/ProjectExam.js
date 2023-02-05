@@ -5,7 +5,7 @@ import shary from "./images/shary.png";
 export default function ProjectExam() {
     return (
         <Container>
-            <Card>
+            <Card style={{ maxWidth: '700px' }}>
                 <Card.Header>
                     <Card.Title>Project Exam 2</Card.Title>
                 </Card.Header>
